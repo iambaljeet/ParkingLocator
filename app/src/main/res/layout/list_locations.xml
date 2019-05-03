@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/main_container"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="?attr/selectableItemBackground"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingStart="@dimen/margin_15"
+        android:paddingTop="@dimen/margin_15"
+        android:paddingEnd="@dimen/margin_10"
+        android:paddingBottom="@dimen/margin_15">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_toStartOf="@+id/more_options"
+            android:orientation="vertical">
+
+            <com.app.parkinglocator.views.TextViewBold
+                android:id="@+id/location_title"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ellipsize="end"
+                android:gravity="start"
+                android:lines="1"
+                android:maxLines="1"
+                android:text=""
+                android:textColor="@color/black"
+                android:textSize="@dimen/text_size_16" />
+
+            <com.app.parkinglocator.views.TextViewRegular
+                android:id="@+id/location_date"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ellipsize="end"
+                android:gravity="end"
+                android:lines="1"
+                android:maxLines="1"
+                android:text=""
+                android:textColor="@color/black"
+                android:textSize="@dimen/text_size_12" />
+
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/more_options"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_alignParentEnd="true"
+            android:layout_centerVertical="true"
+            android:paddingStart="@dimen/margin_10"
+            android:paddingTop="@dimen/margin_10"
+            android:paddingEnd="0dp"
+            android:paddingBottom="@dimen/margin_10"
+            app:srcCompat="@drawable/ic_more_vert_black_24dp" />
+
+    </RelativeLayout>
+
+</LinearLayout>

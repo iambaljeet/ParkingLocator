@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#df83ff</color>
+    <color name="colorPrimaryDark">#cf4cff</color>
+    <color name="colorAccent">#D81B60</color>
+
+
+    <color name="gradient_1_start">#cf4cff</color>
+    <color name="gradient_1_end">#df83ff</color>
+
+    <color name="gradient_3_start">#8d8d8d</color>
+    <color name="gradient_3_end">#c0c0c0</color>
+
+    <color name="colorWhite">#FFFFFF</color>
+    <color name="colorBlack">#000000</color>
+
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
+
+    <color name="toolbar_gradient_start">#33AFF0</color>
+    <color name="toolbar_gradient_end">#2FC5FF</color>
+
+    <color name="header_gradient_start">#33AFF0</color>
+    <color name="heade_gradient_end">#2FC5FF</color>
+
+    <color name="info_toolbar_gradient_start">#ff9136</color>
+    <color name="info_toolbar_gradient_end">#ffaa64</color>
+
+    <color name="grey_color_medium">#A4BFCC</color>
+
+    <color name="gradient_start">#35ccff</color>
+    <color name="gradient_middle">#409de2</color>
+
+    <color name="rippelColor">#0099CC</color>
+
+</resources>

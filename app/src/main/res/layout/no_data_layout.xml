@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/no_data_container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:visibility="gone">
+
+    <com.app.parkinglocator.views.RippleBackground
+        android:id="@+id/pulsator_no_data"
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        app:rb_color="@color/colorPrimary"
+        app:rb_duration="4000"
+        app:rb_radius="25dp"
+        app:rb_rippleAmount="3"
+        app:rb_scale="5">
+
+        <LinearLayout
+            android:id="@+id/timer_layout"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:layout_centerInParent="true"
+            android:background="@drawable/circle_shape"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/countdown_timer_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:lines="1"
+                android:text="Add Data"
+                android:textColor="@color/black"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                android:visibility="visible" />
+
+        </LinearLayout>
+
+    </com.app.parkinglocator.views.RippleBackground>
+
+    <com.app.parkinglocator.views.TextViewBold
+        android:id="@+id/no_data_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/margin_10"
+        android:gravity="center"
+        android:text="@string/no_data_available"
+        android:textAllCaps="false"
+        android:textColor="@color/black"
+        android:textSize="@dimen/text_size_18" />
+
+</LinearLayout>
